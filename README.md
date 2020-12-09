@@ -10,7 +10,7 @@ Blog post: [http://nilhcem.com/iot/home-monitoring-with-mqtt-influxdb-grafana](h
 - `03-bme280_mqtt`: Arduino sketch file for the ESP8266 and the BME280 that publishes sensor data to MQTT
 - `04-mijia_ble_mqt`: Python script that connects to a BTLE MiJia Temperature & Humidity sensor and publishes data to MQTT
 - `05-dht22_mqtt`: Arduino sketch file for the ESP8266 and the DHT22 that publishes sensor data to MQTT
-
+- `06-openweather`: Pulls weather data for your location into InfluxDB
 
 ## Setup
 

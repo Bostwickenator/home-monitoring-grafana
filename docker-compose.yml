@@ -41,3 +41,14 @@ services:
       - mosquitto
       - influxdb
     restart: always
+
+  openweather:
+    build: ./06-openweather
+    image: bostwickenator/openweather
+    container_name: openweather
+    env_file:
+      - ./06-openweather/openweather.env
+    depends_on:
+      - mosquitto
+      - influxdb
+    restart: always
